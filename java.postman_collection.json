@@ -1,0 +1,189 @@
+{
+	"info": {
+		"_postman_id": "5eaa79a8-e44b-4249-b75a-d3cbb17d3ef2",
+		"name": "java",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34497880"
+	},
+	"item": [
+		{
+			"name": "employee/import",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/subhag.jain/Downloads/javamaster-employees - CSV_Data_2024_5_5 18_39 (1).csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9092/employee/import?authToken=b4a6d7c9-cbf3-4896-bbcd-6a4adcd52212",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"employee",
+						"import"
+					],
+					"query": [
+						{
+							"key": "authToken",
+							"value": "b4a6d7c9-cbf3-4896-bbcd-6a4adcd52212"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"Rishabh\",\n    \"password\": \"Rishabh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "file/import",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/subhag.jain/Downloads/CSV_Data_2024_5_5 18_39.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:9091/import",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"import"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all employee",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9092/employee?authToken=79c42f48-67f7-4cbd-92a9-a4e8b3f0f732&firstName=M&lastName=B&dob==01-01-1991",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "authToken",
+							"value": "79c42f48-67f7-4cbd-92a9-a4e8b3f0f732"
+						},
+						{
+							"key": "employeeId",
+							"value": "b12e9753-6d60-42e0-be20-b3a11197d998",
+							"disabled": true
+						},
+						{
+							"key": "firstName",
+							"value": "M"
+						},
+						{
+							"key": "lastName",
+							"value": "B"
+						},
+						{
+							"key": "dob",
+							"value": "=01-01-1991"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "export",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9092/employee/export?authToken=79c42f48-67f7-4cbd-92a9-a4e8b3f0f732&firstName=M&lastName=B&dob==01-01-1991",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"employee",
+						"export"
+					],
+					"query": [
+						{
+							"key": "authToken",
+							"value": "79c42f48-67f7-4cbd-92a9-a4e8b3f0f732"
+						},
+						{
+							"key": "employeeId",
+							"value": "b12e9753-6d60-42e0-be20-b3a11197d998",
+							"disabled": true
+						},
+						{
+							"key": "firstName",
+							"value": "M"
+						},
+						{
+							"key": "lastName",
+							"value": "B"
+						},
+						{
+							"key": "dob",
+							"value": "=01-01-1991"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

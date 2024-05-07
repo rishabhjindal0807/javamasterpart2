@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" modified="2024-05-01T06:06:34.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LhQmGBepA2xYMM7fUdfM" version="24.3.1" type="device" pages="2">
+  <diagram name="Page-1" id="3Bnv9Y16GGXQ7Pzl_AfS">
+    <mxGraphModel dx="1615" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-1" target="NqHiNfpVvz2T9mm6MXMN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-1" value="Auth Micro service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-2" value="login / logout / Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="940" as="targetPoint" />
+            <mxPoint x="455" y="860" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="415" y="860" />
+              <mxPoint x="415" y="900" />
+              <mxPoint x="365" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-3" target="NqHiNfpVvz2T9mm6MXMN-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="860" />
+              <mxPoint x="430" y="905" />
+              <mxPoint x="520" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-3" value="File Processing&lt;br&gt;micro service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-5" value="Import API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-6" value="Export API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-9" target="NqHiNfpVvz2T9mm6MXMN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-9" target="NqHiNfpVvz2T9mm6MXMN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-9" target="NqHiNfpVvz2T9mm6MXMN-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-9" target="NqHiNfpVvz2T9mm6MXMN-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-9" value="Case Study Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-10" value="Get Employee" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-12" target="NqHiNfpVvz2T9mm6MXMN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="760" />
+              <mxPoint x="410" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-12" value="Export CSV" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-2" target="NqHiNfpVvz2T9mm6MXMN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-19" value="Modify Employee on employee id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NqHiNfpVvz2T9mm6MXMN-21" target="NqHiNfpVvz2T9mm6MXMN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NqHiNfpVvz2T9mm6MXMN-21" value="Upload Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DNxoWK4nAEtdtJMou00Z" name="Page-2">
+    <mxGraphModel dx="1400" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="123" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Employee&lt;br&gt;Service&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="TvgQtaTPIODvLyOkbgWa-1">
+          <mxGeometry x="2.5" y="205" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-4" value="User Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TvgQtaTPIODvLyOkbgWa-4" target="TvgQtaTPIODvLyOkbgWa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="630" as="sourcePoint" />
+            <mxPoint x="390" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-7" value="Auth Micro Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TvgQtaTPIODvLyOkbgWa-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.086;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.032;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TvgQtaTPIODvLyOkbgWa-1" target="TvgQtaTPIODvLyOkbgWa-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="600" as="sourcePoint" />
+            <mxPoint x="390" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

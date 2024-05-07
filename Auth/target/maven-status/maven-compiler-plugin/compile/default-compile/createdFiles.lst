@@ -1,0 +1,6 @@
+com\rishabh\Auth\AuthApplication.class
+com\rishabh\Auth\model\AuthRequest.class
+com\rishabh\Auth\model\User.class
+com\rishabh\Auth\service\AuthService.class
+com\rishabh\Auth\controller\AuthIntegrationController.class
+com\rishabh\Auth\service\AuthServiceImpl.class
